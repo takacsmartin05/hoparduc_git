@@ -1,0 +1,31 @@
+body{
+    background-color: lightskyblue;
+    color: grey;
+}
+
+header{
+    background-color: rgb(52, 52, 56);
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 40pt;
+    font-family: Broadway;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(91, 91, 94);
+}
+
+.kartyak{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+img{
+    width: 100%;
+}
